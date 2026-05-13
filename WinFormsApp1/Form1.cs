@@ -42,6 +42,7 @@ namespace WinFormsApp1
             {
                 MessageBox.Show("dang nhap that bai");
             }
+            //DoTienLoc
         }
     }
 }
