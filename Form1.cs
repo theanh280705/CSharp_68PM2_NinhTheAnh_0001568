@@ -36,11 +36,16 @@ namespace WinFormsApp1
             String password = txt_password.Text;
             if (username == "0001568@st.huce.edu.vn" && password == "0001568")
             {
-                MessageBox.Show("dang nhap thanh cong");
+                MessageBox.Show("Đăng nhập thành công");
+
+                Form2 f = new Form2();
+                f.Show();
+
+                this.Hide();
             }
             else
             {
-                MessageBox.Show("dang nhap that bai");
+                MessageBox.Show("Đăng nhập thất bại");
             }
             //NinhTheAnh
         }
